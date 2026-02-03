@@ -7,6 +7,10 @@ namespace Programming_Test_Core.BusinessLayer
     public class ContactosBAL : IContactoBAL
     {
         public IContactoDAL _ContactosDAL;
+        /// <summary>
+        /// Algo se hizo aqui
+        /// </summary>
+        /// <param name="ContactosDAL"></param>
         public ContactosBAL(IContactoDAL ContactosDAL)
         {
             _ContactosDAL = ContactosDAL;
